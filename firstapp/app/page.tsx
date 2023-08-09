@@ -1,7 +1,10 @@
 import Image from 'next/image'
 import Link from 'next/link'
+import React from 'react'
+import '../styles/global.css'
 
 export default function Home() {
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
@@ -9,6 +12,7 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className="font-mono font-bold">app/page.tsx</code>
         </p>
+
         <Link href='learn/next'>he he</Link>
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <a
@@ -52,30 +56,30 @@ export default function Home() {
           </Link>
 
           <Link href = '/learn/angular'>
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn Angular{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
+            <h2 className={`mb-3 text-2xl font-semibold`}>
+              Learn Angular{' '}
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                -&gt;
+              </span>
+            </h2>
           </Link>
 
           <Link href = '/learn/vue'>
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn Vue{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
+            <h2 className={`mb-3 text-2xl font-semibold`}>
+              Learn Vue{' '}
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                -&gt;
+              </span>
+            </h2>
           </Link>
 
           <Link href = '/news'>
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            NEWS{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
+            <h2 className={`mb-3 text-2xl font-semibold`}>
+              NEWS{' '}
+              <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+                -&gt;
+              </span>
+            </h2>
           </Link>
       
           <h2 className={`mb-3 text-2xl font-semibold`}>
@@ -88,3 +92,4 @@ export default function Home() {
     </main>
   )
 }
+
